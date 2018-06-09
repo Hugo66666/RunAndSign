@@ -1,0 +1,29 @@
+{
+  "pages":[
+    "pages/map/map",
+    "pages/logs/logs",
+    "pages/my/my",
+    "pages/game/game"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#FFD700",
+    "navigationBarTitleText": "每日跑步打卡",
+    "navigationBarTextStyle":"black",
+    "backgroundColor":"#FFEC8B"
+  },
+  "tabBar":{
+    "list":[{
+      "pagePath":"pages/map/map",
+      "text":"地图"
+    },{
+      "pagePath": "pages/game/game",
+      "text": "记录"
+    },
+    {
+      "pagePath": "pages/my/my",
+      "text": "设置"
+    }
+    ]
+  }
+}

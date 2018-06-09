@@ -1,0 +1,36 @@
+/**index.wxss**/
+.myMap{
+  width: 100%;
+  height:100%;
+}
+
+.getLocationButton {
+  position:fixed; 
+  bottom:3vh; 
+  right:3vw;
+
+  background: yellow;
+  width: 180rpx;
+  height: 80rpx;
+  border-radius: 200px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content: center;
+  box-shadow: 4px 1px 1px #cccccc;
+}
+
+.moveToLocation {
+  position:fixed; 
+  bottom:3vh;
+  right:30vw;
+  background: yellow;
+  width: 180rpx;
+  height: 80rpx;
+  border-radius: 200px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content: center;
+  box-shadow: 4px 1px 1px #cccccc;
+}

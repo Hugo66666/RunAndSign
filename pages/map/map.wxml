@@ -1,0 +1,17 @@
+<!--index.wxml-->
+<view class="myMap">
+    <map id="map" show-location longitude="106.302773" latitude="29.594978" scale="16"  
+  style="width: 100%; height: 100vh;"
+  controls="{{controls}}" bindcontroltap="controltap"
+  markers="{{markers}}" circles='{{circles}}'
+  >
+      
+    <!-- <cover-view class="getLocationButton" bindtap="getCenterLocation">
+      <cover-view>获取位置</cover-view>
+    </cover-view>
+    <cover-view class="moveToLocation" bindtap="moveToLocation">
+      <cover-view>回到原位</cover-view>
+    </cover-view> -->
+
+  </map>
+</view>

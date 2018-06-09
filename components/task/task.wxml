@@ -1,0 +1,14 @@
+<view class="task_container" catchtap="onTap">
+  <view class="task_information">
+    <text>计划名:</text>
+    <text class="task_name">{{task_name}}</text>
+  </view>
+  <view class="time">
+    <text>开始时间:</text>
+    <text class="start_time">{{start_time}}</text>
+  </view>
+  <view class="time">
+    <text>结束时间:</text>
+    <text class="end_time">{{end_time}}</text>
+  </view>
+</view>

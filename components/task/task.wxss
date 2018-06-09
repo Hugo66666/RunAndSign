@@ -1,0 +1,37 @@
+.task_container{
+  border-style: solid;
+  border-color: #FFEC8B;
+  width:97vw;
+  border-radius: 20px;
+  align-content: center;
+}
+
+.target{
+  margin:10px;
+  width:30pt;
+  height:30pt;
+}
+
+.task_position{
+  margin:10px;
+  display:flex;
+  align-items: center;
+  flex-direction: row;  
+  justify-content: center;  
+}
+
+.time{
+  margin:10px;
+  display:flex;
+  align-items: center;
+  flex-direction: row;  
+  justify-content: center; 
+}
+
+.task_information{
+  margin:10px;
+  display:flex;
+  align-items: center;
+  flex-direction: row;  
+  justify-content: center; 
+}
